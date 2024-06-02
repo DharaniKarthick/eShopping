@@ -26,6 +26,10 @@ Data/ - Contains the ApplicationDbContext and migrations.
 Areas/ - Contains the Identity details of the user.
 Services/ - Contains the repository interfaces and implementations.
 
+## Repository Pattern
+MoneStore uses the Repository Pattern to manage data access. This pattern provides a collection-like interface for accessing domain objects and abstracts the data access logic from the business logic.
+
+
 
 
 
