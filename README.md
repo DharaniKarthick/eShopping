@@ -13,9 +13,10 @@ MoneStore is an ASP.NET Core application that includes a full-featured e-commerc
 Update the database connection in appsettings.json
 
 Run the command to install Entity Framework tools
-## dotnet tool install --global dotnet-ef
+dotnet tool install --global dotnet-ef
+
 Run the Command to update the database
-## dotnet ef database update
+dotnet ef database update
 
 ## Project Structure
 Controllers/ - Contains the MVC controllers.
